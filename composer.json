@@ -1,6 +1,6 @@
 {
     "name": "ojs/ojs-php-sdk",
-    "description": "OJS SDK for OJS",
+    "description": "OJS PHP SDK for OJS",
     "keywords": ["ojs", "sdk"],
     "type": "library",
     "homepage": "https://github.com/ojs/ojs-php-sdk",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ojs\\": "src/Ojs/"
+            "Ojs": "src"
         }
     },
     "autoload-dev": {
