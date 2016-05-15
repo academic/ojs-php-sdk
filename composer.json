@@ -1,0 +1,34 @@
+
+{
+    "name": "ojs/ojs-php-sdk",
+    "description": "OJS SDK for OJS",
+    "keywords": ["ojs", "sdk"],
+    "type": "library",
+    "homepage": "https://github.com/ojs/ojs-php-sdk",
+    "license": "https://github.com/ojs/ojs/blob/master/LICENSE",
+    "authors": [
+        {
+            "name": "OJS",
+            "homepage": "https://github.com/ojs/ojs-php-sdk/graphs/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "OJS\\": "src/OJS/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "OJS\\Tests\\": "Tests/"
+        }
+    }
+}
+
