@@ -1,4 +1,3 @@
-
 {
     "name": "ojs/ojs-php-sdk",
     "description": "OJS SDK for OJS",
@@ -22,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "OJS\\": "src/OJS/"
+            "Ojs\\": "src/Ojs/"
         }
     },
     "autoload-dev": {
